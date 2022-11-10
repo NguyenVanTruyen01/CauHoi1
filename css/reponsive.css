@@ -1,0 +1,53 @@
+/* Mobile  Tablet */
+@media (max-width: 1023px) {
+    .item-content {
+        width: 46%;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .item-content {
+        width: 45%;
+    }
+}
+
+/*Mobile */
+@media (max-width: 739px) and (max-width: 1023px) {
+    .item-content {
+        width: 100%;
+    }
+
+    .item-content .title {
+        text-align: center;
+    }
+
+    .app {
+        flex-direction: column;
+    }
+
+    .nav-contaner {
+        width: 100%;
+        max-height: 44px;
+        position: fixed;
+    }
+
+    .nav-contaner nav ul li a {
+        margin: auto;
+
+    }
+
+
+    .nav-contaner nav ul {
+        display: flex;
+    }
+
+    .content-contaner {
+        padding-top: 46px;
+    }
+
+    .about-item {
+        width: 100%;
+    }
+
+}
